@@ -13,11 +13,20 @@
   },
   "author": "koos",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/koshun-code/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/koshun-code/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/koshun-code/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
 }
