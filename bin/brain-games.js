@@ -2,6 +2,4 @@
 
 import * as index from '../src/index.js';
 
-console.log('Welcome to the Brain Games');
-const name = index.askName();
-console.log(`Hello, ${name}`);
+index.welcomeUser();

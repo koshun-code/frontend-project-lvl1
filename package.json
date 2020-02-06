@@ -14,7 +14,9 @@
   "author": "koos",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js"
   },
   "license": "ISC",
   "bugs": {
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/koshun-code/frontend-project-lvl1#readme",
   "dependencies": {
+    "@hexlet/pairs": "^1.0.10",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
