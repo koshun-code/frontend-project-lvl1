@@ -4,4 +4,5 @@
 [![asciicast](https://asciinema.org/a/Ci9bGHv0F8rgqeWFRel6WMpuQ.svg)](https://asciinema.org/a/Ci9bGHv0F8rgqeWFRel6WMpuQ)
 
 [![asciicast](https://asciinema.org/a/vnw3Uhq25HfZvF4OpNZbzPsXj.svg)](https://asciinema.org/a/vnw3Uhq25HfZvF4OpNZbzPsXj)
+[![asciicast](https://asciinema.org/a/fMku2RDqYpvX0YBITAw8Ih1pj.svg)](https://asciinema.org/a/fMku2RDqYpvX0YBITAw8Ih1pj)
 #frontend-project-lvl1
