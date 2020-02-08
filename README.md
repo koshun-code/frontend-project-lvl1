@@ -7,4 +7,5 @@
 <<<<<<< HEAD
 [![asciicast](https://asciinema.org/a/9v79v2PAtFaMI8M4DIEES17aB.svg)](https://asciinema.org/a/9v79v2PAtFaMI8M4DIEES17aB)
 [![asciicast](https://asciinema.org/a/9v79v2PAtFaMI8M4DIEES17aB.svg)](https://asciinema.org/a/9v79v2PAtFaMI8M4DIEES17aB)
+[![asciicast](https://asciinema.org/a/aARUeYv15D1zG9NmQXy0wrsLy.svg)](https://asciinema.org/a/aARUeYv15D1zG9NmQXy0wrsLy)
 #frontend-project-lvl1
