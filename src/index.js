@@ -41,11 +41,11 @@ export const progression = () => {
   let bg = '';
   for (let i = 0; i < 10; i += 1) {
     if (i === randIn) {
-      bg += rand + i * 2 + ' '; 
+      bg += rand + i * 2 + ' ';
       result += '... ';
       continue;
     }
-    result += rand + i * 2 + ' ' ;
+    result += rand + i * 2 + ' ';
   }
   console.log(`Question: ${result}`);
   return bg;
@@ -56,7 +56,7 @@ export const isPrime = (n) => {
   if (n < 2) {
     return false;
   } else if (n === 2) {
-  return true;
+    return true;
   }
 
   let i = 2;
