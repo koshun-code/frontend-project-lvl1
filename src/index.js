@@ -33,3 +33,20 @@ export const gcdRec = (a, b) => {
   }
   return Math.abs(a);
 };
+
+export const progression = () => {
+  let result = '';
+  const rand = Math.floor(Math.random() * 100);
+  const randIn = Math.floor(Math.random() * 10);
+  let bg = '';
+  for (let i = 0; i < 10; i += 1) {
+    if (i === randIn) {
+      bg += rand + i * 2 + ' '; 
+      result += '... ';
+      continue;
+    }
+    result += rand + i * 2 + ' ' ;
+  }
+  console.log(`Question: ${result}`);
+  return bg;
+};
