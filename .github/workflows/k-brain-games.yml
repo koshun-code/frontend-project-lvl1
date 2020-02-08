@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: npm install, build, and test
+    - name: npm install, start, and lint
       run: |
         make install
         make start
