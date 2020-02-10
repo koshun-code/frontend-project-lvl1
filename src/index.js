@@ -23,9 +23,7 @@ export const wrongAnswer = (name) => {
   console.log(`'yes' is wrong answer ;(. Correct answer was 'no'. Let's try again, ${name}!`);
 };
 
-export const log = (str) => {
-  return console.log(str);
-};
+export const log = (str) => console.log(str);
 
 export const gcdRec = (a, b) => {
   if (b) {
@@ -40,22 +38,24 @@ export const progression = () => {
   const randIn = Math.floor(Math.random() * 10);
   let bg = '';
   for (let i = 0; i < 10; i += 1) {
+    const superRand = rand + i * 2;
     if (i === randIn) {
-      bg += rand + i * 2 + ' ';
+      bg += `${superRand} `;
       result += '... ';
       continue;
     }
-    result += rand + i * 2 + ' ';
+    result += `${superRand} `;
   }
   console.log(`Question: ${result}`);
   return bg;
 };
 
-//cheak num is prime number
+// cheak num is prime number
 export const isPrime = (n) => {
   if (n < 2) {
     return false;
-  } else if (n === 2) {
+  }
+  if (n === 2) {
     return true;
   }
 
