@@ -11,6 +11,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: npm lint
       run: |
-        make install
+        make lint
         env:
           CI: true
