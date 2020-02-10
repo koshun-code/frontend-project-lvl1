@@ -9,10 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: npm install, start, and lint
+    - name: npm lint
       run: |
         make install
-        make start
-        make lint
         env:
           CI: true
