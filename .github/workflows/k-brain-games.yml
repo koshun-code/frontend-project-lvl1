@@ -9,8 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: npm lint
+    - name: Run linter
       run: |
-        make lint
-        env:
+          make lint
+      env:
           CI: true
