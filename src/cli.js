@@ -25,3 +25,16 @@ export const makeQuestion = (callback, resultArray) => {
   }
   return resultArray;
 };
+
+export const calc = (intNum1, intNum2, stringSymbol) => {
+  switch (stringSymbol) {
+    case '-':
+      return intNum1 - intNum2;
+    case '+':
+      return intNum1 + intNum2;
+    case '*':
+      return intNum1 * intNum2;
+    default:
+      return 0;
+  }
+};
