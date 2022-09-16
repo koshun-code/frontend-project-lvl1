@@ -1,0 +1,29 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/koshun-code/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/koshun-code/frontend-project-lvl1/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koshun-code/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "first",
+    "js",
+    "hexlet",
+    "project"
+  ],
+  "author": "Konstantin Sitnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koshun-code/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/koshun-code/frontend-project-lvl1#readme"
+}
