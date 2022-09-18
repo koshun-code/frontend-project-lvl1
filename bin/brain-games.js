@@ -2,6 +2,6 @@
 
 import { setTextQuestion, welcome } from '../src/cli.js';
 
-welcome();
+console.log(welcome());
 const name = setTextQuestion('May I have your name?');
 console.log(`Hello, ${name}!`);
