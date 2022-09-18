@@ -12,3 +12,5 @@
 
 **Игра "прогрессия"**
 [![asciicast](https://asciinema.org/a/Y25O4UgA9gbrEW2Yxi14tSBd2.svg)](https://asciinema.org/a/Y25O4UgA9gbrEW2Yxi14tSBd2)
+
+**Игра "простое ли число"**
